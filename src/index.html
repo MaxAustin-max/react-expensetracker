@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steakz Web Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Steakz Portal</h1>
+    </header>
+
+    <!-- Login Form -->
+    <section class="login-section">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- User Access Panel -->
+    <section class="user-panel hidden">
+        <h2>User Access Panel</h2>
+        <ul>
+            <li><a href="#" class="user-link" data-panel="employee-section">Employee Dashboard</a></li>
+            <li><a href="#" class="user-link" data-panel="manager-section">Manager Dashboard</a></li>
+        </ul>
+    </section>
+
+    <!-- Employee Level Access -->
+    <section class="employee-section hidden">
+        <h2>Employee Dashboard</h2>
+        <!-- Employee-specific content here -->
+    </section>
+
+    <!-- Manager Level Access -->
+    <section class="manager-section hidden">
+        <h2>Manager Dashboard</h2>
+        <!-- Manager-specific content here -->
+    </section>
+
+    <!-- Admin Level Access -->
+    <section class="admin-section hidden">
+        <h2>Admin Dashboard</h2>
+        <!-- Admin-specific content here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Steakz. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

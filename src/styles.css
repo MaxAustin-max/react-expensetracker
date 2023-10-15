@@ -1,0 +1,97 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, header, footer, section {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the common header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for each dashboard section */
+section {
+    display: none;
+    padding: 20px;
+}
+
+/* Styling for login section */
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.login-section label {
+    margin-bottom: 10px;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.login-section button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Styling for user access panel */
+.user-panel {
+    background-color: #f9f9f9;
+}
+
+.user-panel ul {
+    list-style: none;
+}
+
+.user-panel li {
+    margin-bottom: 10px;
+}
+
+/* Styling for user links */
+.user-link {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-link:hover {
+    background-color: #f2f2f2;
+}
+
+/* Styling for employee section */
+.employee-section {
+    background-color: #f9f9f9;
+}
+
+/* Styling for manager section */
+.manager-section {
+    background-color: #e6f5ff;
+}
+
+/* Styling for admin section */
+.admin-section {
+    background-color: #ffe6cc;
+}
+
+/* Styling for the common footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
