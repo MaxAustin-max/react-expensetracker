@@ -9,8 +9,8 @@ Make sure you have the following installed:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/minn-kaungmyat/react-meals.git
-cd react-meals
+git clone https://github.com/minn-kaungmyat/react-expense-tracker.git
+cd react-expense-tracker
 ```
 
 #### 2. Install Dependencies using npm
